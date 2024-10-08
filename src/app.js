@@ -34,3 +34,5 @@ app.get('/', (req, res) => {
 app.listen(SERVER_PORT, SERVER_HOST, () => {
     console.log(`Listening on ${SERVER_HOST}:${SERVER_PORT}`);
 });
+
+module.exports = app;
